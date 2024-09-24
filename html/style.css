@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 235, 238);
+}
+nav {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+nav p {
+    color: white;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+nav p a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s color;
+    font-weight: 700;
+}
+
+nav p a:hover {
+    color: rgb(58, 8, 58);
+    transition: 0.5s color;
+}
+
+.column23 {
+    float: left;
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.column13 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    max-width: 100%;
+}
+
+.song {
+    text-align: center;
+}
+
+.song a {
+    color: crimson;
+}
+
+.song a:hover {
+    color: rgb(58, 8, 58);
+    transition: 0.5s color;
+}
