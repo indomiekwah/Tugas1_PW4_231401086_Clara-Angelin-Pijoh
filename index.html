@@ -1,23 +1,48 @@
 <!DOCTYPE html> <!--Pengenal bagi browser/programmer menandakan file ini berisikan HTML-->
 <html lang="en"> <!--Menandai awal dari web dan bahasa yang digunakan ialah bahasa inggris-->
+
 <head> <!--Menyertakan informasi tentang dokumen seperti judul, deskripsi, dan meta data-->
     <meta charset="UTF-8"> <!--Menentukan bagaimana teks ditransmisikan dan disimpan-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Untuk menyesuaikan tampilan dengan device user-->
-    <title>Document</title> <!--Memberi judul web-->
-</head> <!--Sebagai penutup tag yang menyertakan informasi tentang dokumen seperti judul, deskripsi, dan meta data-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Untuk menyesuaikan tampilan dengan device user-->
+    <title>Perkenalan</title> <!--Memberi judul web-->
+    <link rel="stylesheet" href="style.css">
+</head> <!--Sebagai penutup tag yang menyertakan informasi tentang dokumen seperti judul, deskripsi, dan metadata-->
+
 <body> <!--Menentukan konten utama dari web-->
-    <h1>Haloo selamat datang</h1> <!--Membuat judul (headline) dengan ukuran yang paling besar-->
     <nav> <!--Sebagai navigasi dalam dokumen maupun ke dokumen lain-->
+        <h1>Welcome</h1> <!--Membuat judul (headline) dengan ukuran yang paling besar-->
         <p> <!--Membuat paragraf-->
-            <a href="/index.html">Home</a> | <!--Membuat URL tujuan (hyperlink) dan teks-->
-            <a href="/html/halbaru.html">Fav Album</a> | <!--Membuat URL tujuan (hyperlink) dan teks-->
-            <a href="/html/halbaru2.html">Most listened song</a> <!--Membuat URL tujuan (hyperlink) dan teks-->
+            <a href="index.html">Home</a> | <!--Membuat URL tujuan (hyperlink) dan teks-->
+            <a href="html/halbaru.html">Fav Album</a> | <!--Membuat URL tujuan (hyperlink) dan teks-->
+            <a href="html/halbaru2.html">Most listened song</a> <!--Membuat URL tujuan (hyperlink) dan teks-->
         </p> <!--Sebagai penutup tag yang membuat paragraf-->
     </nav> <!--Sebagai penutup tag yang berperan sebagai navigasi dalam dokumen maupun ke dokumen lain-->
-    <h2>Perkenalkan aku Clara Angelin Pijoh (biasa dipanggil Clara)</h2> <!--Membuat judul (headline) dengan ukuran 2 dari 6 ukuran heading-->
-    <p>NIM 231401086 asal Lab 4 dengan aslab Bang Christian Nathaniel. Sempat ganti lab pada pertemuan pertama ke Lab 6 dengan aslab Bang Rivaldo Pardede (klo abang belom tau)</p> <!--Membuat paragraf-->
-    <p>Jujur aja klo buat website masih awam sih... dibanding sama C++, pascal, sama phyton yang main logika. Klo html harus tau tag trus design gk bisa asal letak harus puter otak gmn bisa sesuai apalagi dengan ilmu terbatas, SERU SIH TAPI!! Semoga belajar dengan abang aku bisa lebih jago #amin</p> <!--Membuat paragraf-->
-    <h3>Penampakan</h3> <!--Membuat judul (headline) dengan ukuran 3 dari 6 ukuran heading-->
-    <img src="/img/clara.jpeg" alt="penampakan" style="width: 300px; height: auto;"> <!--Membuat gambar dan teks jika gambar tidak dapat diload-->
+    <div class="row">
+        <div class="column23">
+        <!--Membuat judul (headline) dengan ukuran 2 dari 6 ukuran heading-->
+            <h2>Perkenalan Diri</h2>
+            <p>
+                Nama: Clara Angelin Pijoh <br>
+                NIM: 231401086 <br>
+                Lab: 4
+            </p>
+            <p>
+                NIM 231401086 asal Lab 4 dengan aslab Bang Christian Nathaniel. Sempat ganti lab pada pertemuan pertama ke
+                Lab 6 dengan aslab Bang Rivaldo Pardede (klo abang belom tau)
+            </p> <!--Membuat paragraf-->
+            <p>
+                Jujur aja klo buat website masih awam sih... dibanding sama C++, pascal, sama phyton yang main logika. Klo
+                html harus tau tag trus design gk bisa asal letak harus puter otak gmn bisa sesuai apalagi dengan ilmu
+                terbatas, SERU SIH TAPI!! Semoga belajar dengan abang aku bisa lebih jago #amin
+            </p> <!--Membuat paragraf-->
+        </div>
+        <div class="column13">
+            <h3>Penampakan</h3> <!--Membuat judul (headline) dengan ukuran 3 dari 6 ukuran heading-->
+            <img src="img/clara.jpeg" alt="penampakan">
+            <!--Membuat gambar dan teks jika gambar tidak dapat diload-->
+        </div>
+    </div>
 </body> <!--Sebagai penutup tag yang menentukan konten utama dari web-->
+
 </html> <!--Menandai akhir dari web-->
